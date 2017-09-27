@@ -59,23 +59,24 @@ Required to start the application:
 - NodeJS
 
 Steps to start the Applications:
-Step 1:
+- Step 1:
   Install NodeJS(If it is not installed)
-Step 2:
+- Step 2:
   Go into the root directory in the terminal
-Step 3:
+- Step 3:
   npm install
   (this will install all the dependencies)
-Step 4:
+- Step 4:
   npm run build
   (this will build a bundle file with all the javascript file for the html)
-Step 5:
+- Step 5:
+  (open a new terminal and go to the root directory)
   npm start
   (start the server)
-Step 6:
+- Step 6:
   go into a browser and open up localhost:3000
   (opens up a local version of the application)
-Step 7:
+- Step 7:
   Enjoy the application!
 
 ## Testing the application
