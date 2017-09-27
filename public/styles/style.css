@@ -1,0 +1,51 @@
+/* Stub CSS file for your tinychat app! */
+
+body {
+  background-color: snow;
+  color: #333;
+}
+li{
+  list-style-type: none;
+  display: block;
+  margin: 4px;
+  padding: 3px;
+}
+li:hover{
+  background-color: #edf2f9;
+}
+li .edit-button{
+  display: none;
+  background-color: white;
+}
+li:hover .edit-button {
+  border-radius: 5px;
+  margin: 2px;
+  display: inline;
+}
+img{
+  height: 13px;
+  width: 13px;
+}
+.author-text{
+  font-weight: bold;
+}
+.message-box{
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  overflow: auto;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+  margin-bottom: 8px;
+}
+
+.button-input-div{
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+
+.button-input-div * {
+  margin: 5px;
+}
