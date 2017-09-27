@@ -14,20 +14,18 @@ Good luck, and we hope you have fun with this!
 
 ## Features
 /****************** Updated ********************/
-/****************** Updated ********************/
 
 * display all previous messages
 * user can type in new messages and it will render on the application
 * data from previous sessions will persist(all data kept in the fakedata.json)
-*** specify your name in the beginning(please make sure to be case sensitive)
-*** edit previous messages
-*** real time communication
-*** really nice edit feature
-*** Able to display URLs(limited to .com and https://)
+* (Extra Feature) Specify your name in the beginning(please make sure to be case sensitive)
+* (Extra Feature) Edit previous messages
+* (Extra Feature) Real time communication
+* (Extra Feature) Edit Button 
+* (Extra Feature) Able to display URLs(limited to .com and https://)
 
 ## What files live where
 
-/****************** Updated ********************/
 /****************** Updated ********************/
 
 * server : Three files in here app.js, jsonFileHelpers.js, fixtures/fakedata.json
@@ -53,35 +51,33 @@ Good luck, and we hope you have fun with this!
 ## Starting the Application
 
 /****************** Updated ********************/
-/****************** Updated ********************/
 
 Required to start the application:
 - NodeJS
 
 Steps to start the Applications:
-- Step 1:
+* Step 1:
   Install NodeJS(If it is not installed)
-- Step 2:
+* Step 2:
   Go into the root directory in the terminal
-- Step 3:
+* Step 3:
   npm install
   (this will install all the dependencies)
-- Step 4:
+* Step 4:
   npm run build
   (this will build a bundle file with all the javascript file for the html)
-- Step 5:
+* Step 5:
   (open a new terminal and go to the root directory)
   npm start
   (start the server)
-- Step 6:
+* Step 6:
   go into a browser and open up localhost:3000
   (opens up a local version of the application)
-- Step 7:
+* Step 7:
   Enjoy the application!
 
 ## Testing the application
 
-/****************** Updated ********************/
 /****************** Updated ********************/
 
 Username: upon opening the application please fill in the popup with your desired usename(CASE SENSITIVE: I had this choice so it seem's like a real chat);

@@ -5,7 +5,7 @@ import { appendMessageToHTML } from './appendDomHandlers.js';
 export const pubnub = new PubNub({
   publishKey: 'pub-c-b055fc84-8929-4560-9e58-46f5a159decf',
   subscribeKey: 'sub-c-a19ded7a-a1b9-11e7-a3e4-2e10596cd186',
-  ssl: true
+  ssl: true,
 });
 $(document).ready(function () {
   const currentUserName = document.getElementById('currentUserName');
